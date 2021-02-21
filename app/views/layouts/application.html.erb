@@ -8,8 +8,8 @@
 </head>
 <body>
   
-  <nav class="top-bar">
-    <h1><a href="/">MentalHealthInTheMargins</a></h1>
+  <div class="top-bar">
+    <h1><a href="/">Mental Health In The Margins</a></h1>
 
     <section class="top-bar-section">
       <ul class="right">
@@ -21,7 +21,7 @@
         <%- end -%>
       </ul>
     </section>
-  </nav>
+  </div>
 
   <%- flash.each do |key, value| -%>
     <div class="flash flash-<%= key %>">
@@ -41,5 +41,10 @@
   <%= javascript_pack_tag 'application' %>
   
   <%= yield :extra_footer %>
+  <div class="grid-x footer align-middle grid-padding-x align-self-bottom">
+    <div class="cell medium-6">
+      <h5>created by a strangelilbird</h5>
+    </div>
+  </div>
 </body>
 </html>
