@@ -1,10 +1,15 @@
 
+body {
+  Font-Family: 'Source Sans Pro', Sans-Serif;
+  Font-Size: 17px; 
+};
+
+h1, h2, h3, h4, h5 {
+  Font-Family: 'Playfair Display', Serif;
+};
+
 .footer {
   width: 100%;
   padding: 1rem;
   margin: 1rem;
-
-  .h5 {
-    
-  }
 }
